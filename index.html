@@ -7,22 +7,29 @@
 </head>
 <body>
 
-     <script>
+      <script> 
 
 
-var book1 =["Gitanjoli", "lal-salu"];
-var book2 =["pother-pachali"];
-var book4 =["bisad-sindhu"];
-var book5 =["hauwa"];
-var book3 =book2.concat(book1).concat(book4).concat(book5)
-document.write(book3);
+// var book1 =["Gitanjoli", "lal-salu"];
+// var book2 =["pother-pachali"];
+// var book4 =["bisad-sindhu"];
+// var book5 =["hauwa"];
+// var book3 =book2.concat(book1).concat(book4).concat(book5)
+// document.write(book3);
 
 
 
-var parson1="tom crus Alvard";
-vzr parson2=Array.from(parson1);
-document.write(parson2[11]);
+// var parson1="tom crus Alvard";
+// vzr parson2=Array.from(parson1);
+// document.write(parson2[9]); 
 
+
+var serialnumber=[30,35,40,45,50,55,80,90];
+var findNumber=serialnumber.filter(function(item){
+    return item < 50;
+
+});
+document.write(findNumber);
 
 
 
